@@ -12,7 +12,6 @@
     <link rel="shortcut icon" href="./assets/images/favicon.png" />
     <meta name="keywords" content="在线工具网" />
     <meta name="description" content="在线网址导航, 各类开发工具、绘图绘画工具、md5、在线ps、base64、房贷计算器等" />
-
     <link rel="stylesheet" id="block-library-css" href="./assets/css/block-library.min-5.6.2.css" type="text/css"
         media="all" />
     <link rel="stylesheet" id="iconfont-css" href="./assets/css/iconfont-3.03029.1.css" type="text/css" media="all" />
@@ -23,21 +22,12 @@
     <link rel="stylesheet" id="fortawesome-css" href="./assets/fontawesome-5.15.4/css/all.min.css" type="text/css" />
     <script type="text/javascript" src="./assets/js/jquery.min-3.2.1.js" id="jquery-js"></script>
     <script type="text/javascript" src="./assets/js/content-search.js" id="content-search-js"></script>
-
-
-
-
     <script>
         !function (p) {"use strict"; !function (t) {var s = window, e = document, i = p, c = "".concat("https:" === e.location.protocol ? "https://" : "http://", "sdk.51.la/js-sdk-pro.min.js"), n = e.createElement("script"), r = e.getElementsByTagName("script")[0]; n.type = "text/javascript", n.setAttribute("charset", "UTF-8"), n.async = !0, n.src = c, n.id = "LA_COLLECT", i.d = n; var o = function () {s.LA.ids.push(i)}; s.LA ? s.LA.ids && o() : (s.LA = p, s.LA.ids = [], o()), r.parentNode.insertBefore(n, r)}()}({id: "3G9QRCtAm0z4ABfe", ck: "3G9QRCtAm0z4ABfe"});
     </script>
-
 </head>
 
-
-
 <body class="io-grey-mode">
-
-
     <div class="page-container">
 
         <div id="sidebar" class="sticky sidebar-nav fade animate-nav" style="width: 170px">
@@ -359,8 +349,8 @@
                             <div class="s-type text-center">
                                 <div class="s-type-list big">
                                     <div class="anchor" style="position: absolute; left: 50%; opacity: 0;"></div>
-                                    <label for="type-baidu" data-id="group-a"><span>常用</span></label>
-                                    <label for="type-baidu1" data-id="group-b"><span>搜索</span></label>
+                                    <!-- <label for="type-bing" data-id="group-a"><span>常用</span></label> -->
+                                    <label for="type-bing1" data-id="group-b"><span>搜索</span></label>
                                     <label for="type-whois" data-id="group-c"><span>工具</span></label>
                                     <label for="type-zhihu" data-id="group-d"><span>社区</span></label>
                                     <label for="type-taobao1" data-id="group-e"><span>生活</span></label>
@@ -376,7 +366,7 @@
                         </form>
 
                         <div id="search-list" class="hide-type-list">
-                            <div class="search-group group-a">
+                            <!-- <div class="search-group group-a">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" checked="checked" id="type-baidu"
                                             value="https://www.baidu.com/s?wd=" data-placeholder="百度一下，你就知道">
@@ -400,7 +390,7 @@
                                         <label for="type-pubmed"><span class="text-muted">文献</span></label>
                                     </li>
                                 </ul>
-                            </div>
+                            </div> -->
                             <div class="search-group group-b">
                                 <ul class="search-type">
                                     <li><input hidden="" type="radio" name="type" id="type-baidu1"
@@ -419,7 +409,7 @@
                                             value="https://www.sogou.com/web?query=" data-placeholder="搜狗搜索">
                                         <label for="type-sogo"><span class="text-muted">搜狗</span></label>
                                     </li>
-                                    <li><input hidden="" type="radio" name="type" id="type-bing1"
+                                    <li><input hidden="" type="radio" name="type" id="type-bing1" autofocus
                                             value="https://cn.bing.com/search?q=" data-placeholder="微软 Bing 搜索">
                                         <label for="type-bing1"><span class="text-muted">必应</span></label>
                                     </li>
@@ -533,44 +523,132 @@
                         </div>
                     </div>
                 </div>
-
             </div>
-
-
             <div id="content" class="content-site customize-site">
-
-
-
-
                 <div class="d-flex flex-fill">
                     <h4 class="text-gray text-lg mb-4">
                         <i class="site-tag iconfont icon-tag icon-lg mr-1" id="3e90c5117dc0fe9d71410e448d766e52"></i>
                         常用工具
                     </h4>
-
                 </div>
-
                 <div class="row">
-
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                         <div class="url-body default">
-
-
-                            <a href="https://www.yuque.com/" target="_blank" data-id=""
-                                data-url="https://www.yuque.com/" class="card no-c mb-4" data-toggle="tooltip"
-                                data-placement="bottom" data-original-title="专业的云端知识库。">
-
+                            <a href="https://www.sojson.com/" target="_blank" data-id=""
+                                data-url="https://www.sojson.com/" class="card no-c mb-4" data-toggle="tooltip"
+                                data-placement="bottom" data-original-title="JSON转换工具。">
                                 <div class="card-body">
                                     <div class="url-content d-flex align-items-center">
                                         <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="assets/images/sojson.png"
+                                                data-src="assets/images/sojson.png"
+                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'"
+                                                alt="sojson">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>SoJson</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">JSON转换工具。</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://www.sojson.com/" class="togo text-center text-muted is-views" data-id="689"
+                                data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                                <i class="iconfont icon-goto"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://element-plus.org/" target="_blank" data-id=""
+                                data-url="https://element-plus.org/" class="card no-c mb-4" data-toggle="tooltip"
+                                data-placement="bottom" data-original-title="Element-plus组件库">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="assets/images/element-plus-logo.svg"
+                                                data-src="assets/images/element-plus-logo.svg"
+                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'"
+                                                alt="sojson">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>Element-plus</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">Element-plus组件库</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://element-plus.org/" class="togo text-center text-muted is-views"
+                                data-id="689" data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                                <i class="iconfont icon-goto"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://developer.mozilla.org/" target="_blank" data-id=""
+                                data-url="https://developer.mozilla.org/" class="card no-c mb-4" data-toggle="tooltip"
+                                data-placement="bottom" data-original-title="前端标准库">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                            <img class="lazy" src="assets/images/mdn.svg"
+                                                data-src="assets/images/mdn.svg"
+                                                onerror="javascript:this.src='assets\/images\/logos\/default.webp'"
+                                                alt="sojson">
+                                        </div>
+                                        <div class="url-info flex-fill">
+                                            <div class="text-sm overflowClip_1">
+                                                <strong>前端标准库</strong>
+                                            </div>
+                                            <p class="overflowClip_1 m-0 text-muted text-xs">前端标准库</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="https://developer.mozilla.org/" class="togo text-center text-muted is-views"
+                                data-id="689" data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                                <i class="iconfont icon-goto"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- antdesign网站 -->
+                    <!-- uniapp官网 -->
+                    <!-- vuex -->
+                    <!-- pinia -->
+                    <!-- vue官网 -->
+                    <!-- vxe-table 虚拟滚动组件库 -->
+                    <!-- uview官网 -->
+                    <!-- vant官网 -->
+                    <!-- element -->
+                    <!-- react -->
+                    <!-- react native -->
+                    <!-- React Native Material UI -->
+                    <!-- taro -->
+                    <!-- 香橙派 -->
+                    <!-- threejs -->
+                    <!-- webgl -->
 
 
+                    <!-- <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                        <div class="url-body default">
+                            <a href="https://www.yuque.com/" target="_blank" data-id=""
+                                data-url="https://www.yuque.com/" class="card no-c mb-4" data-toggle="tooltip"
+                                data-placement="bottom" data-original-title="专业的云端知识库。">
+                                <div class="card-body">
+                                    <div class="url-content d-flex align-items-center">
+                                        <div class="url-img mr-2 d-flex align-items-center justify-content-center">
                                             <img class="lazy" src="assets/images/logos/%e8%af%ad%e9%9b%80.jpg"
                                                 data-src="assets/images/logos/%e8%af%ad%e9%9b%80.jpg"
                                                 onerror="javascript:this.src='assets\/images\/logos\/default.webp'"
                                                 alt="语雀">
-
-
                                         </div>
                                         <div class="url-info flex-fill">
                                             <div class="text-sm overflowClip_1">
@@ -586,8 +664,7 @@
                                 <i class="iconfont icon-goto"></i>
                             </a>
                         </div>
-                    </div>
-
+                    </div> -->
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                         <div class="url-body default">
 
@@ -6672,16 +6749,17 @@
     <script>
         $(document).ready(function () {
             setTimeout(function () {
-                if ($('a.smooth[href="' + window.location.hash + '"]')[0]) {
-                    $('a.smooth[href="' + window.location.hash + '"]').click();
-                } else if (window.location.hash != '') {
-                    $("html, body").animate({
-                        scrollTop: $(window.location.hash).offset().top - 90
-                    }, {
-                        duration: 500,
-                        easing: "swing"
-                    });
-                }
+                // if ($('a.smooth[href="' + window.location.hash + '"]')[0]) {
+                //     $('a.smooth[href="' + window.location.hash + '"]').click();
+                // } else if (window.location.hash != '') {
+                //     $("html, body").animate({
+                //         scrollTop: $(window.location.hash).offset().top - 90
+                //     }, {
+                //         duration: 500,
+                //         easing: "swing"
+                //     });
+                // }
+                document.getElementById('search-text').focus();
             }, 300);
             $(document).on('click', 'a.smooth', function (ev) {
                 if ($('#sidebar').hasClass('show') && !$(this).hasClass('change-href')) {
